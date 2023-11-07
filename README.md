@@ -50,5 +50,5 @@ To run this project locally:
 - [Gaurang Mestry](https://github.com/ngaraug)
 - [Archit Salokhe](https://github.com/ArchitSalokhe)
 - [Vedant Narkar](https://github.com/VedantNarkar)
-- Soham Sargar (No GitHub link provided)
+- [Soham Sargar](https://github.com/sohamsargar)
 
