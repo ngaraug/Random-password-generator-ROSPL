@@ -44,7 +44,20 @@ submit.addEventListener('click', ()=>{
 
     let passwordH2 = document.createElement('h1')
     passwordH2.classList.add("password")
+    passwordH2.classList.add("myText")
     passwordH2.innerText = password
     passwordHolder.append(passwordH2)
+    document.getElementById("copy-div").style.display = "flex"
     
 })
+
+async function copyContent() {
+    let text = document.querySelector('.myText').innerHTML;
+    try {   
+        await navigator.clipboard.writeText(text);
+        console.log('password copied to clipboard');
+        window.alert("Password copied to clipboard")
+        } catch (err) {
+        console.error('Failed to copy: ', err);
+    }
+}
